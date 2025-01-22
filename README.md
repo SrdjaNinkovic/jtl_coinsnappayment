@@ -33,49 +33,17 @@ With Coinsnap Payment Plugin you can integrate Bitcoin and Lightning payments in
 
 Simply register in [Coinsnap](https://app.coinsnap.io/), enter your own Lightning address and your customers can pay you with Bitcoin and Lightning.
 
-# Features:
+# JTL-Shop - Online shop software - offers several benefits:
 
-- **All you need is a Lightning Wallet with a Lightning address. [Here you can find an overview of the matching Lightning Wallets](https://coinsnap.io/en/lightning-wallet-with-lightning-address/)**
+Higher Conversion Rates: By catering to customers who prefer to pay with Bitcoin, you can increase sales and reduce cart abandonment.
 
-- **Accept Bitcoin and Lightning payments** in your online store **without running your own technical infrastructure.** You do not need your own server, nor do you need to run your own Lightning Node.
+Competitive Edge: With millions of Bitcoin transactions globally and a limited number of shops accepting cryptocurrency, offering Bitcoin payments can help differentiate your store.
 
-- **Quick and easy registration at Coinsnap**: Just enter your email address and your Lightning address – and you are ready to integrate the payment module and start selling for Bitcoin Lightning. You will find the necessary IDs and Keys here, too.
+Direct Payments: Payments are processed directly between you and your customers, eliminating the need for third-party payment processors.
 
-- **100% protected privacy**:
+Greater Visibility: Accepting Bitcoin allows you to list your store on directories of businesses that accept cryptocurrency, attracting new customers who specifically seek out such merchants.
 
-  - We do not collect personal data.
-  - For the registration you only need an e-mail address, which we will also use to inform you when we have received a payment.
-  - No other personal information is required as long as you request a withdrawal to a Lightning address or Bitcoin address.
-
-- **Only 1 % fees!**:
-
-  - No basic fee, no transaction fee, only 1% on the invoice amount with referrer code.
-  - Without referrer code the fee is 1.25%.
-  - Get a referrer code from our partners and customers and save 0.25% fee.
-
-- **No KYC needed**:
-
-  - Direct, P2P payments (instantly to your Lightning wallet)
-  - No intermediaries and paperwork
-  - Transaction information is only shared between you and your customer
-
-- **Sophisticated merchant’s admin dashboard in Coinsnap:**:
-
-  - See all your transactions at a glance
-  - Follow-up on individual payments
-  - See issues with payments
-  - Export reports
-
-- **A Bitcoin payment via Lightning offers significant advantages**:
-
-  - Lightning **payments are executed immediately.**
-  - Lightning **payments are credited directly to the recipient.**
-  - Lightning **payments are inexpensive.**
-  - Lightning **payments are guaranteed.** No chargeback risk for the merchant.
-  - Lightning **payments can be used worldwide.**
-  - Lightning **payments are perfect for micropayments.**
-
-- **Multilingual interface and support**: We speak your language
+This plugin can help your business appeal to the growing number of cryptocurrency users while streamlining payment processing.
 
 # Documentation:
 
@@ -102,6 +70,19 @@ Note: folder inside zip archive should have exact name jtl_coinsnappayment.
 
 2.2. Navigate to Plug-in manager, choose Upload tab, drag-and-drop zip file with plugin in file zone or select it in the file field and upload.
 
+# Note: If the name of the uploaded folder does not align with the required folder structure for JTL plugins, it could be due to downloading a ZIP file from a repository, which often adds extra suffixes like -main to the folder name.
+
+To resolve this, please follow these steps:
+
+Download the ZIP file: You’ve already done this part by downloading jtl_coinsnappayment-main.zip.
+
+Extract the ZIP file: Unzip the file to a folder on your computer. After extraction, you should have a folder named jtl_coinsnappayment-main.
+
+Rename the folder: Rename the extracted folder from jtl_coinsnappayment-main to jtl_coinsnappayment.
+
+Recompress the folder: Zip the renamed folder back into a new ZIP file. The ZIP file should now contain the folder jtl_coinsnappayment at its root level.
+
+Upload the new ZIP file: Go back to the JTL Backend and upload this newly created ZIP file via drag-and-drop or by locating the file. JTL should now correctly recognize the folder structure and complete the installation without errors.
 
 
 ![Navigate to Plug-in manager, upload the plugin](https://resources.coinsnap.org/products/jtl-store/images/screenshot-2.png)
